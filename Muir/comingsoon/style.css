@@ -1,0 +1,84 @@
+body {
+	font-family:'Montserrat',sans-serif;
+	font-size:100%;
+	background:url(https://img.muir.fun/mc.webp)no-repeat center top;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+	background-attachment:fixed;
+	text-align:center;
+}
+.ban-head {
+	margin:9em 0 0 0;
+}
+.ban-head h2 {
+	font-size:2em;
+	color:#fff;
+	letter-spacing:20px;
+}
+.ban-head h1 {
+	font-size:4em;
+	color:#fff;
+	letter-spacing:36px;
+	font-family:'Permanent Marker',cursive;
+}
+.ban-head p {
+	font-size:1.5em;
+	color:#fff;
+}
+
+/*-- Countdown-Timer --*/
+
+.agile-its {
+	padding-top:10em;
+	margin:0 auto;
+}
+.simply-section {
+	display:block;
+	width:19%;
+	float:left;
+	text-align:center;
+	padding:0% 2%;
+}
+.countdown-timer-w3laits h3 {
+	font-weight:200;
+	font-size:3em;
+	margin-bottom:40px;
+	color:#fff;
+	text-align:center;
+	letter-spacing:3px;
+}
+.countdown-timer-w3laits h4 {
+	margin-bottom:30px;
+	color:#fff;
+	text-align:center;
+	letter-spacing:3px;
+	font-size:2em;
+	text-transform:uppercase;
+}
+.examples {
+	width:50%;
+	margin:7em auto 0;
+}
+.countdown-timer-w3laits h3  span {
+	color:#ff8c00;
+}
+span.simply-amount {
+	font-size:2.5em;
+	line-height:0;
+	font-weight:800;
+	color:#fff;
+}
+span.simply-word {
+	font-size:16px;
+	letter-spacing:1px;
+	font-weight:500;
+	margin-left:5px;
+	text-transform:uppercase;
+	color:#ffffff;
+	display:block;
+	margin-top:15%;
+}
+/*-- //Countdown-Timer --*/
