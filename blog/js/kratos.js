@@ -6,6 +6,18 @@
             $('.share-wrap').fadeToggle('slow');
         });
     }
+    var QRCode = function(){
+        $('.qrcode').each(function(index,el){
+			var url = $(this).data('url');
+			if($.fn.qrcode){
+				$(this).qrcode({
+					text:url,
+					width:150,
+					height:150,
+				});
+			}
+		});
+    }
     var sidebaraffix = function(){
         if($('#sidebar').height()&&xb.site_sh){
             if($('#main').height()>$('#sidebar').height()){
@@ -259,6 +271,7 @@
         sidebaraffix();
         showPhotos();
         OwOcfg();
+        QRCode();
     }
     $(function(){
         gotop();
@@ -271,6 +284,7 @@
         donateConfig();
         showlove();
         shareMenu();
+        QRCode();
         OwOcfg();
         wechatpic();
         if($('div').hasClass('aplayer-footer')) APF();
@@ -386,6 +400,6 @@ window.onload = function(){
     var now = new Date().getTime();
     var page_load_time = now-performance.timing.navigationStart;
     console.clear();
-    console.log('%cmuir.fun','font-size:2em');
+	console.log("%c \ud83c\udf89 Theme Modified %c by Becod_ https://muir.fun/ %c ","color: #fff; margin: 1em 0; padding: 5px 0; background: #29c75f;","margin: 1em 0; padding: 5px 0; background: #efefef;","display: block;margin-left:-0.5em;");
     console.log('%c页面加载完毕消耗了'+Math.round(performance.now()*100)/100+'ms','background:#fff;color:#333;text-shadow:0 0 2px #eee,0 0 3px #eee,0 0 3px #eee,0 0 2px #eee,0 0 3px #eee;');
 };
